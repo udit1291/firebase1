@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/firetext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16dp"/>
+    <TextView
+        android:id="@+id/firetext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16dp"
+        android:layout_below="@+id/firetext1"/>
+    <TextView
+        android:id="@+id/firetext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="16dp"
+        android:layout_below="@+id/firetext2"/>
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_below="@+id/firetext3"
+        android:layout_width="wrap_content"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="Rate"/>
+
+    <TextView
+        android:id="@+id/rate1"
+        android:layout_below="@+id/firetext3"
+        android:layout_width="wrap_content"
+        android:textSize="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tax"
+        android:layout_below="@+id/rate"
+        android:layout_width="wrap_content"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="Tax"/>
+
+    <TextView
+        android:id="@+id/tax1"
+        android:layout_below="@+id/rate"
+        android:layout_width="wrap_content"
+        android:textSize="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/disc"
+        android:layout_width="wrap_content"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tax"
+        android:text="Discount"/>
+
+    <TextView
+        android:id="@+id/disc1"
+        android:layout_width="wrap_content"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tax"/>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/disc"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Total"/>
+
+    <TextView
+        android:id="@+id/total1"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/disc"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/st"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/total"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="Start time"/>
+
+    <TextView
+        android:id="@+id/st1"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/total"
+        android:textSize="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/et"
+        android:layout_below="@+id/st"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End time"/>
+
+    <TextView
+        android:id="@+id/et1"
+        android:layout_below="@+id/st"
+        android:textSize="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tt"
+        android:layout_below="@+id/et"
+        android:layout_width="wrap_content"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="Total time"/>
+
+    <TextView
+        android:id="@+id/tt1"
+        android:layout_below="@+id/et"
+        android:layout_width="wrap_content"
+        android:textSize="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/payment"
+        android:layout_below="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Payment Status"/>
+
+
+    <TextView
+        android:id="@+id/payment1"
+        android:layout_below="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel Booking"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
